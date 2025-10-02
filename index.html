@@ -4,11 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daniel - Portifolio</title>
+    <title>Daniel Alves - Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
+
+    <div class="floating-elements">
+        <div class="floating-element"></div>
+        <div class="floating-element"></div>
+        <div class="floating-element"></div>
+        <div class="floating-element"></div>
+        <div class="floating-element"></div>
+    </div>
+
     <nav class="navbar">
         <div class="logo">Daniel Alves</div>
         <div class="menu-toggle" id="mobile-menu">
@@ -35,178 +44,150 @@
     
     <section id="about" class="about">
         <div class="about-container">
-            <img src="photo.jpg" alt="">
+            <img src="photo.jpg" alt="Daniel Alves" class="fade-in">
 
-            <div class="info-box">
-
+            <div class="info-box slide-in-right">
                 <div class="text">
                     <h3>Olá, eu sou</h3>
                     <h1>Daniel</h1>
                     <span>Frontend Developer // Backend</span>
                 </div>
                 <div class="bnt-group">
-                    <div class="bnt"><a href="tel:81 99239-5393">contato</a></div>
+                    <div class="bnt"><a href="tel:81 99239-5393">Contato</a></div>
                 </div>
 
                 <div class="socials">
-
                    <a href="https://github.com/Daniel-Devweb" target="_blank" class="Github icon">
-
                         <i class="fa-brands fa-github"></i>
                    </a>
             
                     <a href="https://www.linkedin.com/in/danielalvessilva00001/" target="_blank" class="Linkedin icon">
                         <i class="fa-brands fa-linkedin"></i>
                     </a>
-                
-                    </div>
+                </div>
             </div>
         </div>
     </section>
 
     <section id="experience" class="experience">
-        <h2 class="section-title">Experiênçia</h2>
+        <h2 class="section-title">Experiência</h2>
         <div class="experience-info">
-            <div class="grid">
-                <div class="grid-card">
-                    <i class="fa-solid fa-file-code"></i>
-                    <span>Frontend</span>
-                    <h3></h3>
-                    <p>Possuo conhecimentos em interfaces interativas e responsivas.</p>
+            <div class="grid-card fade-in">
+                <i class="fa-solid fa-code"></i>
+                <span>Front-end</span>
+                <p>Possuo conhecimentos em interfaces interativas e responsivas com tecnologias modernas.</p>
             </div>
-        </div>
-        <div class="grid">
-            <div class="grid-card">
-                <i class="fa-solid fa-file-code"></i>
+            
+            <div class="grid-card fade-in">
+                <i class="fa-solid fa-server"></i>
                 <span>Backend</span>
-                <h3></h3>
-                <p>tenho conhecimentos básicos de Java e Python.</p>
+                <p>Tenho conhecimentos Básicos em Python e Java para desenvolvimento de aplicações.</p>
+            </div>
+
+            <div class="grid-card fade-in">
+                <i class="fa-brands fa-git-alt"></i>
+                <span>Git e Github</span>
+                <p>Experiência em controle de versão e colaboração em projetos utilizando Git e GitHub.</p>
             </div>
         </div>
-
-        <div class="grid">
-            <div class="grid-card">
-                <i class="fa-solid fa-file-code"></i>
-                <span>Git e Github</span>
-                <h3></h3>
-                <p>Possuo conhecimentos de Git e Github.</p>
-            </div>
-            </div>
-
-       
     </section>
 
     <section id="projects" class="projects">
-
         <h2 class="section-title">Projetos</h2>
 
         <div class="projects-grid">
-            <div class="project-card">
-                <img src= "project 1.PNG"alt="">
-            <h3>Player Music</h3>
-            <p>Um projeto de um player de musica usando javascript </p>
-            <div class="bnt-group">
-                <div class="bnt"><a href="https://daniel-devweb.github.io/Player-Music/"target="_black">Live demo</a></div>  
-         </div>
-         </div>
-         
-            <div class="project-card">
-                <img src="project 2.PNG" alt="">
-            <h3>Calculator</h3>
-            <p>Projetos simples de uma calculadora feita com java usando interface gráfica swing</p>
-            <div class="bnt-group">
-                <div class="bnt"><a href="https://github.com/Daniel-Devweb/Calculator-Java" target="_blank">Git repo</a></div>
+            <div class="project-card fade-in">
+                <img src="project 1.PNG" alt="Player Music">
+                <h3>Player Music</h3>
+                <p>Um projeto de um player de música interativo desenvolvido com JavaScript puro, com interface moderna e funcionalidades avançadas.</p>
+                <div class="bnt-group">
+                    <div class="bnt"><a href="https://daniel-devweb.github.io/Player-Music/" target="_blank">Live Demo</a></div>  
+                </div>
             </div>
+         
+            <div class="project-card fade-in">
+                <img src="project 2.PNG" alt="Calculator">
+                <h3>Calculator</h3>
+                <p>Calculadora elegante desenvolvida em Java utilizando interface gráfica Swing com design moderno e funcionalidades completas.</p>
+                <div class="bnt-group">
+                    <div class="bnt"><a href="https://github.com/Daniel-Devweb/Calculator-Java" target="_blank">Git Repo</a></div>
+                </div>
             </div>
             
-                <div class="project-card">
-                    <img src="project 3.PNG" alt="">
-                    <h3>Dashboard</h3>
-                    <p>um projeto de uma página dashboard adimin feita com javaScript</p>
-                 <div class="bnt-group">
-                    <div class="bnt"><a href="https://daniel-devweb.github.io/Dashboard/"target="_black">Live demo</a></div>
+            <div class="project-card fade-in">
+                <img src="project 3.PNG" alt="Dashboard">
+                <h3>Dashboard</h3>
+                <p>Dashboard administrativo responsivo desenvolvido com JavaScript, apresentando métricas e visualizações de dados em tempo real.</p>
+                <div class="bnt-group">
+                    <div class="bnt"><a href="https://daniel-devweb.github.io/Dashboard/" target="_blank">Live Demo</a></div>
                 </div>
-                </div>
-            <div class="projects-grid">
-            <div class="project-card">
-                <img src= "Project 5.png"alt="">
-            <h3>AutoPy</h3>
-            <p>Projeto Automação com python com objetivo de criar uma estrutura completa de desenvolvimento no vscode. </p>
-            <div class="bnt-group">
-                <div class="bnt"><a href="https://github.com/Daniel-Devweb/Ambiente_de_Automacao/"target="_black">Git repo</a></div>  
-         </div>
-         </div>
-         
-            <div class="project-card">
-                <img src="project 6.png" alt="">
-            <h3>Snake_game</h3>
-            <p>jogo da cobra com menu interativo onde pode-se escolher skin para o personagem.</p>
-            <div class="bnt-group">
-                <div class="bnt"><a href="https://github.com/Daniel-Devweb/snakegame/" target="_blank">Git repo</a></div>
             </div>
+
+            <div class="project-card fade-in">
+                <img src="Project 5.png" alt="AutoPy">
+                <h3>AutoPy</h3>
+                <p>Sistema de automação em Python para criação de estruturas completas de desenvolvimento no VSCode, otimizando o workflow.</p>
+                <div class="bnt-group">
+                    <div class="bnt"><a href="https://github.com/Daniel-Devweb/Ambiente_de_Automacao/" target="_blank">Git Repo</a></div>  
+                </div>
+            </div>
+         
+            <div class="project-card fade-in">
+                <img src="project 6.png" alt="Snake Game">
+                <h3>Snake Game</h3>
+                <p>Jogo da cobra clássico com menu interativo e sistema de skins personalizáveis.Feito com python.</p>
+                <div class="bnt-group">
+                    <div class="bnt"><a href="https://github.com/Daniel-Devweb/snakegame/" target="_blank">Git Repo</a></div>
+                </div>
             </div>
             
-                <div class="project-card">
-                    <img src="Project 4.png" alt="">
-                    <h3>Morgana AI</h3>
-                    <p>Projeto feito com python visando Automação e inicialização de programas a partir da biblioteca Pyaudio.</p>
-                 <div class="bnt-group">
-                    <div class="bnt"><a href="https://github.com/Daniel-Devweb/Morgana-AI/"target="_black">Git repo</a></div>
-                </div>
+            <div class="project-card fade-in">
+                <img src="Project 4.png" alt="Morgana AI">
+                <h3>Morgana AI</h3>
+                <p>Assistente virtual inteligente desenvolvido em Python com reconhecimento de voz usando PyAudio para automação de tarefas.</p>
+                <div class="bnt-group">
+                    <div class="bnt"><a href="https://github.com/Daniel-Devweb/Morgana-AI/" target="_blank">Git Repo</a></div>
                 </div>
             </div>
+        </div>
     </section>
 
     <section id="Skills" class="Skills">
         <h2 class="section-title">Minhas Skills</h2>
 
         <div class="skill">
-            <i class="fa-brands fa-js"></i>
-            <i class="fa-brands fa-css3-alt"></i>
-            <i class="fa-brands fa-html5"></i>
-            <i class="fab fa-java"></i>
-            <i class="fa-brands fa-bootstrap"></i>
-            <i class="fa-brands fa-python"></i>
+            <i class="fa-brands fa-js" title="JavaScript"></i>
+            <i class="fa-brands fa-css3-alt" title="CSS3"></i>
+            <i class="fa-brands fa-html5" title="HTML5"></i>
+            <i class="fab fa-java" title="Java"></i>
+            <i class="fa-brands fa-bootstrap" title="Bootstrap"></i>
+            <i class="fa-brands fa-python" title="Python"></i>
         </div>
     </section>
     
     <section class="contact" id="contact">
         <div class="input-box">
-            <h2 class="section-title">Fale comigo!</h2>
+            <h2 class="section-title">Fale Comigo!</h2>
             <div class="input">
-                <input type="" placeholder="">
-                <a href="https://www.linkedin.com/in/seu-perfil" target="_blank" class="linkedin-icon">
+                <input type="text" placeholder="Entre em contato através do LinkedIn">
+                <a href="https://www.linkedin.com/in/danielalvessilva00001/" target="_blank" class="linkedin-icon">
                     <i class="fa-brands fa-linkedin"></i>
-                </div>
+                </a>
+            </div>
+        </div>
     </section>
 
     <footer>
         <ul>
-            <li>
-                <a href="#about">Home</a>
-            </li>
-
-            <li>
-                <a href="#experience">Experiênçia</a>
-            </li>
-
-            <li>
-                <a href="#projects">projetos</a>
-            </li>
-
-            <li>
-                <a href="#Skills">Skills</a>
-            </li>
-
-            <li>
-                <a href="#contact">Contato</a>
-            </li>
-
+            <li><a href="#about">Home</a></li>
+            <li><a href="#experience">Experiência</a></li>
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#contact">Contato</a></li>
         </ul>
-        <p class="copyright">@ Todos direitos Resevados // Daniel Alves</p>    
+        <p class="copyright">© Todos direitos reservados - Daniel Alves</p>    
     </footer>
-<script src="script.js"></script>
+    
+    <script src="script.js"></script>
 </body>
 </html>
-
-
